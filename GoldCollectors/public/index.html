@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				margin: 0px;
+				padding: 0px;
+				//background: #00ff00 url("images/bg.png") repeat fixed center;
+				background-color: black;
+			}
+			
+			#chat
+			{
+				background-color: silver;
+				height: 500px;
+				width: 400px;
+				overflow: scroll;
+			}
+			
+			#chat_div
+			{
+				width: 90%;
+				margin: 30px;
+			}
+			
+			#my_canvas
+			{
+				border: silver 10px solid;
+				border-radius: 10px;
+			}
+			#energy
+			{
+				display: table;
+				margin: 0px auto;
+				font-size: 30px;
+				color: white;
+			}
+			#score
+			{
+				display: table;
+				margin: 10px auto;
+				font-size: 30px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="0" width="90%">
+			<tr>
+				<td colspan="2" style="text-align:center;">
+					<span id="score"></span>
+				</td>
+			<tr>
+			<tr>
+				<td width="30%">
+					<div id="chat_div">
+						<form id="send-message">
+							<input size="35" id="message"></input>
+							<input type="submit" value="Send"></input>
+						</form>
+						<div id="chat">
+						</div>
+					</div>		
+				</td>
+				<td style="text-align:left;">
+					<canvas id="my_canvas" width="640" height="640"></canvas>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;">
+					<span id="energy"></span>		
+				<td>
+			</tr>
+		</table>
+		
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="createjs-2015.11.26.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
