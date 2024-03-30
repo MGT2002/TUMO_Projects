@@ -1,0 +1,115 @@
+body
+{
+	background-color: black;
+}
+
+#nkar
+{
+	position: absolute;
+	top: 400px;
+	width:480px;
+	height: 480px;
+	background-image: url(images3/nkar.jpg);
+}
+
+#platform
+{
+	position: absolute;
+	background-color: silver;
+	top: 5px;
+	left: 500px;
+	width:600px;
+	height: 800px;
+	border: 1px solid;
+}
+
+#score
+{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width:380px;
+	height: 55px;
+	font-size: 40px;
+	color: white;
+}
+
+#level
+{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width:380px;
+	height: 55px;
+	font-size: 40px;
+	color: white;
+}
+
+.kub
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/kvadrat.jpg);
+}
+
+.karmir
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/kk.jpg);
+}
+
+.dexin
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/jk.jpg);
+}
+
+.kanach
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/zk.jpg);
+}
+
+.fika
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/fk.jpg);
+}
+
+.oka
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+	background-image: url(images3/ok.jpg);
+}
+
+.dasht
+{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	top: 0px;
+	left: 280px;
+}
